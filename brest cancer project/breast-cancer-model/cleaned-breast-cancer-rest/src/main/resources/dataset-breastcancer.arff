@@ -1,0 +1,248 @@
+% Dataset converted from Excel
+@RELATION excel_dataset
+
+@ATTRIBUTE No. REAL
+@ATTRIBUTE No.RM REAL
+@ATTRIBUTE "Faktor Risiko" {tidak, ya}
+@ATTRIBUTE "Benjolan di Payudara" {tidak, ya}
+@ATTRIBUTE "Kecepatan Tumbuh dengan/ tanpa Rasa Sakit" {ya, tidak}
+@ATTRIBUTE "Nipple Discharge" {tidak, ya}
+@ATTRIBUTE "Retraksi putting susu" {tidak, ya}
+@ATTRIBUTE "Krusta" {tidak, ya}
+@ATTRIBUTE "Dimpling" {tidak, ya}
+@ATTRIBUTE "peau d'orange" {tidak, ya}
+@ATTRIBUTE "ulserasi" {tidak, ya}
+@ATTRIBUTE "Venektasi" {tidak, ya}
+@ATTRIBUTE "Benjolan Ketiak" {ya, tidak}
+@ATTRIBUTE "Edema Lengan" {ya, tidak}
+@ATTRIBUTE "Nyeri tulang" {ya, tidak}
+@ATTRIBUTE "Sesak" {tidak, ya}
+@ATTRIBUTE "Resiko Kanker" {'breast cancer', 'non breast cancer'}
+@ATTRIBUTE "ICD-10 Topography" {C50.9, C50.4, D24, D48.6}
+
+@DATA
+1,22025334,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,ya,ya,tidak,'breast cancer',C50.9
+2,21063747,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+3,20008573,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+4,22055750,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+5,22050034,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+6,22044232,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+7,18051065,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,ya,tidak,ya,'breast cancer',C50.4
+8,22056009,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+9,22048645,tidak,ya,ya,tidak,tidak,tidak,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+10,22030954,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+11,21051555,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,ya,ya,ya,'breast cancer',C50.9
+12,21014200,tidak,ya,ya,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+13,22041964,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+14,963975,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,ya,ya,tidak,ya,'breast cancer',C50.9
+15,21012403,tidak,ya,ya,tidak,ya,tidak,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+16,621173,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+17,633351,tidak,ya,ya,tidak,tidak,tidak,tidak,ya,tidak,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+18,887426,tidak,ya,ya,tidak,ya,tidak,tidak,tidak,tidak,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+19,1015976,tidak,ya,ya,tidak,tidak,tidak,tidak,ya,ya,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+20,1251380,tidak,ya,ya,ya,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+21,1522674,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+22,1560141,tidak,ya,ya,tidak,ya,tidak,tidak,tidak,tidak,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+23,1595944,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,ya,ya,tidak,ya,'breast cancer',C50.9
+24,1639183,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+25,14014851,tidak,ya,ya,tidak,ya,tidak,tidak,tidak,tidak,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+26,14050514,ya,ya,ya,ya,tidak,tidak,tidak,tidak,ya,tidak,ya,ya,tidak,ya,'breast cancer',C50.9
+27,23013388,tidak,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,ya,ya,tidak,ya,'breast cancer',C50.9
+28,23010447,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+29,23002865,tidak,ya,ya,tidak,ya,tidak,tidak,tidak,ya,tidak,ya,ya,tidak,tidak,'non breast cancer',D24
+30,23017811,tidak,ya,ya,tidak,tidak,ya,tidak,tidak,ya,tidak,ya,ya,tidak,ya,'breast cancer',C50.9
+31,23000542,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+32,23001192,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+33,22060147,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+34,23001435,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+35,22056952,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+36,23002245,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+37,23002425,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+38,971377,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+39,22025334,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,ya,ya,tidak,'breast cancer',C50.9
+40,22060787,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+41,21034200,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,ya,ya,tidak,ya,'breast cancer',C50.9
+42,22056691,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+43,22040251,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+44,22056009,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+45,17028588,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+46,22055948,tidak,ya,ya,ya,ya,ya,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+47,23009018,tidak,ya,ya,ya,ya,tidak,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+48,22025122,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+49,22048645,tidak,ya,ya,tidak,tidak,tidak,tidak,ya,ya,tidak,ya,tidak,tidak,tidak,'breast cancer',C50.9
+50,22007973,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+51,22054029,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+52,1218621,ya,ya,ya,tidak,ya,tidak,tidak,ya,tidak,tidak,ya,ya,tidak,ya,'breast cancer',C50.9
+53,23023890,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+54,22050727,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+55,23011831,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D48.6
+56,23003937,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+57,23017811,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+58,23013832,tidak,ya,ya,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+59,1560141,ya,ya,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+60,20019956,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+61,23018590,ya,ya,ya,ya,ya,tidak,tidak,ya,tidak,tidak,tidak,tidak,ya,ya,'breast cancer',C50.9
+62,21029770,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+63,23004227,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+64,1545134,ya,ya,ya,ya,ya,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+65,22025122,tidak,ya,ya,ya,ya,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+66,23013832,tidak,ya,ya,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+67,23019575,tidak,ya,ya,ya,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+68,23016362,ya,ya,ya,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+69,23032187,ya,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+70,23010875,tidak,ya,ya,ya,ya,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+71,23024365,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+72,23031785,ya,ya,ya,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+73,23000919,ya,ya,ya,tidak,ya,tidak,tidak,tidak,tidak,tidak,ya,ya,tidak,ya,'breast cancer',C50.9
+74,20036710,ya,ya,ya,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+75,23010452,tidak,ya,ya,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+76,23014519,ya,ya,ya,ya,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,ya,ya,'breast cancer',C50.9
+77,22047445,tidak,ya,ya,ya,tidak,ya,ya,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+78,18042038,tidak,ya,ya,ya,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+79,22030954,tidak,ya,ya,ya,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+80,22010194,ya,ya,ya,ya,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+81,22057131,ya,ya,ya,ya,tidak,tidak,tidak,tidak,ya,tidak,ya,ya,tidak,ya,'breast cancer',C50.9
+82,22025122,ya,ya,ya,ya,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+83,1120701,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,ya,tidak,'breast cancer',C50.9
+84,20036710,ya,ya,ya,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+85,23016362,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+86,21025398,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+87,14050514,ya,ya,ya,ya,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+88,23019575,tidak,ya,ya,ya,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+89,23008263,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+90,23025713,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+91,22055948,ya,ya,ya,ya,tidak,tidak,tidak,ya,ya,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+92,23000919,ya,ya,ya,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+93,22048645,ya,ya,ya,tidak,tidak,tidak,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+94,13016158,tidak,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+95,842707,ya,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+96,22018966,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+97,23038624,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+98,19023932,tidak,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+99,23039405,ya,ya,ya,ya,ya,ya,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+100,23046785,tidak,ya,ya,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+101,22058016,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+102,22056952,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,'non breast cancer',D48.6
+103,23000919,ya,ya,ya,tidak,ya,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+104,23003404,tidak,ya,ya,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D48.6
+105,22058712,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+106,1536623,tidak,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D48.6
+107,13005211,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+108,22060147,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+109,23002927,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D48.6
+110,23002466,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+111,23003425,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+112,19046427,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+113,23002865,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+114,23008189,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+115,23004848,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+116,23004863,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+117,23010447,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+118,23007550,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D48.6
+119,22052633,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+120,23007547,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+121,19051854,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+122,22028694,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+123,23027886,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+124,1161861,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+125,23039751,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+126,23042599,ya,ya,ya,ya,ya,tidak,tidak,tidak,ya,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+127,23039405,ya,ya,ya,ya,ya,ya,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+128,23039397,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+129,23048162,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+130,963975,tidak,ya,ya,ya,tidak,tidak,tidak,tidak,ya,tidak,ya,ya,tidak,ya,'breast cancer',C50.9
+131,22057131,ya,ya,ya,ya,tidak,tidak,tidak,tidak,ya,tidak,ya,ya,tidak,ya,'breast cancer',C50.9
+132,22004232,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D48.6
+133,22004232,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+134,23046785,tidak,ya,ya,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+135,15000125,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+136,799855,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+137,16040584,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+138,20006945,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+139,23064145,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+140,23063924,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+141,23066485,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+142,23059744,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D48.6
+143,23065324,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+144,1621119,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+145,20031194,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+146,23058610,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+147,24004198,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+148,24005365,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+149,20023225,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+150,24020344,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+151,14008796,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+152,24016542,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+153,24027833,tidak,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+154,24029304,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+155,24019611,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+156,21026820,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+157,24030005,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+158,24035309,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+159,24039739,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+160,24039481,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+161,24040465,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+162,24045637,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+163,24046383,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+164,13019320,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+165,20006075,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+166,24010175,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+167,24041483,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+168,1028,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+169,23004863,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'non breast cancer',D24
+170,23071084,tidak,ya,ya,ya,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+171,23066083,tidak,ya,ya,ya,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+172,23067005,ya,ya,ya,ya,ya,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+173,1342159,ya,ya,ya,ya,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+174,23063128,tidak,ya,ya,ya,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+175,23064561,ya,ya,ya,ya,tidak,tidak,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+176,23059963,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+177,1015976,tidak,ya,ya,tidak,tidak,tidak,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+178,22058902,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+179,24022915,tidak,ya,ya,tidak,tidak,tidak,tidak,ya,ya,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+180,24020057,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+181,21010867,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+182,24048585,ya,ya,ya,tidak,tidak,tidak,tidak,ya,ya,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+183,24032840,tidak,ya,ya,ya,tidak,tidak,tidak,tidak,ya,tidak,ya,ya,tidak,ya,'breast cancer',C50.9
+184,24029186,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+185,21012403,ya,ya,ya,tidak,ya,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+186,24041737,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+187,24024216,tidak,ya,ya,ya,ya,ya,ya,tidak,tidak,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+188,887426,tidak,ya,ya,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+189,23005303,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,ya,'breast cancer',C50.9
+190,952186,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+191,24041737,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+192,24048154,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+193,24061306,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+194,23023214,ya,ya,ya,tidak,tidak,tidak,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+195,24059491,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+196,24041319,ya,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+197,24056960,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,ya,ya,tidak,ya,'breast cancer',C50.9
+198,24029171,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+199,24021688,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+200,887426,tidak,ya,ya,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+201,23009530,ya,ya,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+202,24053375,ya,ya,ya,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+203,24040502,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+204,24037323,ya,ya,ya,ya,ya,ya,tidak,tidak,ya,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+205,24057528,ya,ya,ya,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+206,24004587,tidak,ya,ya,ya,ya,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+207,24022056,ya,ya,ya,ya,ya,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+208,24008561,ya,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+209,24058118,tidak,ya,ya,tidak,ya,tidak,tidak,tidak,tidak,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+210,24033852,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+211,24056242,tidak,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+212,24022056,ya,ya,ya,ya,ya,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+213,24004581,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,ya,tidak,tidak,'breast cancer',C50.9
+214,24051512,ya,ya,ya,tidak,ya,ya,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+215,24000635,tidak,ya,ya,ya,ya,ya,tidak,ya,tidak,tidak,tidak,tidak,tidak,ya,'breast cancer',C50.9
+216,24054996,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+217,13035637,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,ya,ya,tidak,ya,'breast cancer',C50.9
+218,24054786,tidak,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+219,21010867,ya,ya,ya,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+220,22030673,ya,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+221,24053694,ya,ya,ya,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+222,23012662,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+223,24018721,ya,ya,ya,ya,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+224,24022056,ya,ya,ya,ya,ya,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
+225,23023214,ya,ya,ya,tidak,tidak,tidak,tidak,tidak,ya,tidak,tidak,tidak,tidak,tidak,'breast cancer',C50.9
