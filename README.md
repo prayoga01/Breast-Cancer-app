@@ -80,18 +80,26 @@ Key problems behind this project:
 ## ✨ Features
 
 ### General User / Patient
-- 🔐 **Registration & Login** — user authentication
-- 📝 **Symptom Input Form** — fill in signs & symptoms for breast cancer risk prediction
-- 🤖 **Automatic Prediction** — prediction results from the Naïve Bayes model via Spring Boot API
-- 📊 **Prediction History** — view the history of previous screening results
-- 📚 **Selfcare / Education** — BSE (Breast Self-Examination) guide
-- 👤 **Profile Management** — update personal information
+- 🔐 Registration & Login
+- 📝 Symptom Input Form (with menstrual cycle / menopause validation)
+- 🤖 Cancer Risk Prediction (Naïve Bayes)
+- 🔑 Examination Code — unique alphanumeric code generated after screening, to share with a doctor
+- 🖨️ Print Screening Result
+- 📊 Prediction History
+- 📚 Selfcare / BSE Education
+- 👤 Profile Management
 
-### Admin / Medical Staff
-- 📋 **Dashboard** — summary of prediction data and users
-- 🗂️ **All Patient Prediction History** — monitor screening results of all users
-- 👨‍⚕️ **Manage Doctors** — manage doctor data
+### Doctor
+- 🔐 Login — using registered email & password
+- 👤 Profile Management (must be completed before accessing panel)
+- 🩺 Doctor Panel — enter examination code (received from patient) to access their screening result
+- 📋 View Patient Screening Result Detail
 
+### Admin
+- 📋 Dashboard
+- 🗂️ All Patient Prediction History
+- 👨‍⚕️ Manage Doctors
+- 👥 Manage Users
 ---
 
 ## 🤖 Prediction Model
