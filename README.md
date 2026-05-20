@@ -49,10 +49,10 @@ Key problems behind this project:
 
 ## 📸 Screenshots
 
-> Create a `/docs/screenshots/` folder in this repo, upload your images, then update the paths below.
-
 **Landing Page**
 ![Landing Page](screenshots/landing.png)
+The first page encountered by users when accessing the system. It is designed to be informative and responsive in order to raise public awareness about the importance of independent breast cancer screening. This page can be accessed without logging in and contains the main navigation to Selfcare, Start Screening, Register, and Login. It also provides a call-to-action button, “Start Self-Detection Now,” which directly directs users to begin the screening process.
+
 
 **Login & Register Page**
 ![Login Register](screenshots/login.png)
@@ -72,7 +72,7 @@ Key problems behind this project:
 **Prediction History (Admin / Medical Staff)**
 ![Admin History](screenshots/riwayat-admin.png)
 
-**Admin Dashboard**
+**Doctor Dashboard**
 ![Doctor Dashboard](screenshots/dashboard-admin.png)
 
 ---
