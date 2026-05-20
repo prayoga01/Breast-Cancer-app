@@ -73,7 +73,7 @@ Key problems behind this project:
 ![Admin History](docs/screenshots/riwayat-admin.png)
 
 **Admin Dashboard**
-![Admin Dashboard](docs/screenshots/dashboard-admin.png)
+![Doctor Dashboard](docs/screenshots/dashboard-admin.png)
 
 ---
 
