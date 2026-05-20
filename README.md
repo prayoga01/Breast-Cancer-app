@@ -220,6 +220,7 @@ Breast-Cancer-app/
 - GitHub: [@prayoga01](https://github.com/prayoga01)
 
 **Partner** — Dataset Collection & Data Cleaning
+- GitHub: [@lindayuna](https://github.com/lindayuna)
 
 ---
 
