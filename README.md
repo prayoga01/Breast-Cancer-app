@@ -52,28 +52,28 @@ Key problems behind this project:
 > Create a `/docs/screenshots/` folder in this repo, upload your images, then update the paths below.
 
 **Landing Page**
-![Landing Page](docs/screenshots/landing.png)
+![Landing Page](screenshots/landing.png)
 
 **Login & Register Page**
-![Login Register](docs/screenshots/login.png)
+![Login Register](screenshots/login.png)
 
 **Symptom Input Form**
-![Symptom Form](docs/screenshots/form-gejala.png)
+![Symptom Form](screenshots/form-gejala.png)
 
 **Prediction Result Page**
-![Prediction Result](docs/screenshots/hasil-prediksi.png)
+![Prediction Result](screenshots/hasil-prediksi.png)
 
 **Selfcare / BSE Education Page**
-![Selfcare](docs/screenshots/selfcare.png)
+![Selfcare](screenshots/selfcare.png)
 
 **Prediction History**
-![History](docs/screenshots/riwayat.png)
+![History](screenshots/riwayat.png)
 
 **Prediction History (Admin / Medical Staff)**
-![Admin History](docs/screenshots/riwayat-admin.png)
+![Admin History](screenshots/riwayat-admin.png)
 
 **Admin Dashboard**
-![Doctor Dashboard](docs/screenshots/dashboard-admin.png)
+![Doctor Dashboard](screenshots/dashboard-admin.png)
 
 ---
 
