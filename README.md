@@ -226,4 +226,4 @@ Breast-Cancer-app/
 
 ## 📝 License
 
-This project was created for research purposes and for the development of a screening system at RSUP Prof. Dr. I.G.N.G Ngoerah, Bali.
+This project was created for research purposes and for the development of a screening system.
