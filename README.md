@@ -1,72 +1,228 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🎗️ Breast Cancer Screening Information System
+### RSUP Prof. Dr. I.G.N.G Ngoerah, Bali
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 
-## About Laravel
+> A web-based breast cancer screening system designed specifically for RSUP Prof. Dr. I.G.N.G Ngoerah, Bali. Both the general public and medical staff can perform early digital detection of breast cancer risk by inputting experienced symptoms — the system predicts cancer indication using the Naïve Bayes algorithm.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+> **⚠️ Collaborative Project**
+> System development (Laravel + Spring Boot) was carried out by [@prayoga01](https://github.com/prayoga01).
+> Dataset collection and cleaning were done together with a partner.
+> Spring Boot API Repo: [breast-cancer](https://github.com/prayoga01/breast-cancer)
 
--   [Simple, fast routing engine](https://laravel.com/docs/routing).
--   [Powerful dependency injection container](https://laravel.com/docs/container).
--   Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
--   Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
--   Database agnostic [schema migrations](https://laravel.com/docs/migrations).
--   [Robust background job processing](https://laravel.com/docs/queues).
--   [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 📋 Background
 
-## Learning Laravel
+Breast cancer is the most prevalent disease in Indonesia and ranked 3rd highest at RSUP Ngoerah in 2024. National screening coverage has only reached **14.52%**, with Bali among the **6 lowest provinces** in Indonesia.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Key problems behind this project:
+- Extremely low screening coverage both nationally and in Bali
+- Electronic medical record data has not been utilized for clinical decision-making
+- No digital screening system exists — education is still delivered manually through lectures and BSE (Breast Self-Examination) demonstrations
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🏗️ System Architecture
 
-## Laravel Sponsors
+```
+┌─────────────────────┐         ┌──────────────────────┐
+│   Laravel (Web App) │ ──API──▶│  Spring Boot (API)   │
+│   Frontend + Logic  │◀──JSON──│  Naïve Bayes Model   │
+└─────────────────────┘         └──────────────────────┘
+         │                                │
+         ▼                                ▼
+    MySQL Database                  WEKA Dataset
+   (users, profiles,             (225 medical records
+   prediction, etc.)              from RSUP Ngoerah)
+```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- **Laravel** → Web application (UI, authentication, data management)
+- **Spring Boot** → REST API for prediction using the Naïve Bayes model
+- **WEKA** → Data mining tool for training the model from medical record datasets
 
-### Premium Partners
+---
 
--   **[Vehikl](https://vehikl.com/)**
--   **[Tighten Co.](https://tighten.co)**
--   **[WebReinvent](https://webreinvent.com/)**
--   **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
--   **[64 Robots](https://64robots.com)**
--   **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
--   **[Cyber-Duck](https://cyber-duck.co.uk)**
--   **[DevSquad](https://devsquad.com/hire-laravel-developers)**
--   **[Jump24](https://jump24.co.uk)**
--   **[Redberry](https://redberry.international/laravel/)**
--   **[Active Logic](https://activelogic.com)**
--   **[byte5](https://byte5.de)**
--   **[OP.GG](https://op.gg)**
+## 📸 Screenshots
 
-## Contributing
+> Create a `/docs/screenshots/` folder in this repo, upload your images, then update the paths below.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+**Landing Page**
+![Landing Page](docs/screenshots/landing.png)
 
-## Code of Conduct
+**Login & Register Page**
+![Login Register](docs/screenshots/login.png)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+**Symptom Input Form**
+![Symptom Form](docs/screenshots/form-gejala.png)
 
-## Security Vulnerabilities
+**Prediction Result Page**
+![Prediction Result](docs/screenshots/hasil-prediksi.png)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+**Selfcare / BSE Education Page**
+![Selfcare](docs/screenshots/selfcare.png)
 
-## License
+**Prediction History**
+![History](docs/screenshots/riwayat.png)
 
-# The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+**Prediction History (Admin / Medical Staff)**
+![Admin History](docs/screenshots/riwayat-admin.png)
 
-# bc-project
+**Admin Dashboard**
+![Admin Dashboard](docs/screenshots/dashboard-admin.png)
 
-Breast cancer detection with naive bayes
+---
 
-> > > > > > > 44fa75ec1a30be6f4250cff610f02a7f7d91ebe7
+## ✨ Features
+
+### General User / Patient
+- 🔐 **Registration & Login** — user authentication
+- 📝 **Symptom Input Form** — fill in signs & symptoms for breast cancer risk prediction
+- 🤖 **Automatic Prediction** — prediction results from the Naïve Bayes model via Spring Boot API
+- 📊 **Prediction History** — view the history of previous screening results
+- 📚 **Selfcare / Education** — BSE (Breast Self-Examination) guide
+- 👤 **Profile Management** — update personal information
+
+### Admin / Medical Staff
+- 📋 **Dashboard** — summary of prediction data and users
+- 🗂️ **All Patient Prediction History** — monitor screening results of all users
+- 👨‍⚕️ **Manage Doctors** — manage doctor data
+
+---
+
+## 🤖 Prediction Model
+
+| Item | Detail |
+|------|--------|
+| Algorithm | Naïve Bayes |
+| Dataset | 225 electronic medical records from RSUP Ngoerah (Breast Cancer & non-Breast Cancer) |
+| Tools | WEKA (pre-processing & training) |
+| Validation Split | 80% training / 20% testing |
+| Accuracy | **89.90%** |
+| Precision | **80%** |
+| Recall | **85.70%** |
+
+**Attributes / variables used:**
+Risk factors, breast lump, mass growth rate, nipple discharge, nipple retraction, crust, dimpling, peau d'orange, ulceration, venectasia, armpit lump, arm edema, bone pain, shortness of breath
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technology |
+|----------|------------|
+| Web Framework | PHP, Laravel |
+| API Server | Spring Boot (Java) |
+| Frontend | Bootstrap, Blade Template |
+| Database | MySQL |
+| Dev Environment | XAMPP |
+| Data Mining | WEKA |
+| Development Method | Agile Scrum |
+
+---
+
+## ⚙️ Installation & Setup
+
+### Prerequisites
+- PHP >= 8.0
+- Composer
+- MySQL
+- XAMPP
+- Node.js & NPM
+- Spring Boot API running → [breast-cancer](https://github.com/prayoga01/breast-cancer)
+
+### Steps
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/prayoga01/Breast-Cancer-app.git
+cd Breast-Cancer-app
+
+# 2. Install PHP dependencies
+composer install
+
+# 3. Install frontend dependencies
+npm install && npm run dev
+
+# 4. Copy the environment file
+cp .env.example .env
+
+# 5. Generate app key
+php artisan key:generate
+
+# 6. Configure database & API in .env
+DB_DATABASE=your_database_name
+DB_USERNAME=your_username
+DB_PASSWORD=your_password
+
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+
+# Spring Boot API URL
+NAIVEBAYES_API_URL=http://localhost:8080
+
+# 7. Run migrations & seeders
+php artisan migrate --seed
+
+# 8. Start the development server
+php artisan serve
+```
+
+Access the app at `http://localhost:8000`
+
+> **⚠️ Make sure the Spring Boot API is running** at `http://localhost:8080` before using the prediction feature.
+
+---
+
+## 📁 Main Directory Structure
+
+```
+Breast-Cancer-app/
+├── app/
+│   ├── Http/Controllers/
+│   └── Models/
+├── database/
+│   ├── migrations/
+│   └── seeders/
+├── public/
+├── resources/
+│   └── views/
+│       ├── auth/
+│       ├── admin/
+│       └── user/
+├── routes/
+│   └── web.php
+└── .env.example
+```
+
+---
+
+## 🗄️ Database Structure
+
+| Table | Description |
+|-------|-------------|
+| `users` | User account data |
+| `profiles` | User profile data |
+| `contents` | Education / selfcare content |
+| `prediction` | Symptom input data for prediction |
+| `prediction_result` | Prediction results from the model |
+| `doctors` | Doctor data |
+
+---
+
+## 👨‍💻 Developer
+
+**Yoga Pratama** — Fullstack Developer (Laravel + Spring Boot)
+- GitHub: [@prayoga01](https://github.com/prayoga01)
+
+**Partner** — Dataset Collection & Data Cleaning
+
+---
+
+## 📝 License
+
+This project was created for research purposes and for the development of a screening system at RSUP Prof. Dr. I.G.N.G Ngoerah, Bali.
