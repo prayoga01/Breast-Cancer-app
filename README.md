@@ -56,24 +56,26 @@ The first page encountered by users when accessing the system. It is designed to
 
 **Login & Register Page**
 ![Login Register](screenshots/login.png)
+The system provides three separate authentication pathways based on user roles: Public Users, Doctors, and Administrators. Public users can register independently through the registration form or use a Google account to accelerate the process. Doctors and administrators use credentials that have been prepared by the system administrator. The system implements role-based access control (RBAC) to ensure that each user can only access features according to their assigned role.
+
 
 **Symptom Input Form**
 ![Symptom Form](screenshots/form-gejala.png)
+In this screening process, before filling out the form, users are asked to select their menstrual cycle status (still menstruating or already menopausal) — an important hormonal validation for determining the appropriate timing of Breast Self-Examination (BSE/SADARI). Users then answer 14 questions one by one regarding the conditions they experience, such as the presence of lumps, nipple discharge, skin changes, and metastatic symptoms. Each question is equipped with a “Learn More” button that opens a popup modal containing illustrations and medical explanations, ensuring that users fully understand the condition being referred to before answering. Before the results are displayed, the system presents a confirmation alert to ensure that all responses are correct.
+
 
 **Prediction Result Page**
 ![Prediction Result](screenshots/hasil-prediksi.png)
-
-**Selfcare / BSE Education Page**
-![Selfcare](screenshots/selfcare.png)
+This page displays the real-time output of the Naïve Bayes model based on the 14 symptom inputs provided by the user. The results include the risk classification (Breast Cancer or Non-Breast Cancer), confidence score (prediction confidence level), examination date, and a recap of all user responses. In addition, the page displays a unique Examination Code (alphanumeric format) that can be provided to doctors for professional access to the screening results. The page also provides follow-up recommendations and a “Print Results” button, allowing users to save or print the results as a document.
 
 **Prediction History**
 ![History](screenshots/riwayat.png)
+Users can view the complete history of all screening activities they have previously performed. This page displays information such as the date of the most recent prediction, the next eligible prediction date, the total number of predictions, the number of negative results, and the number of positive results. Users can also click the “Detail” button to review the signs and symptoms entered during a specific prediction period.
 
-**Prediction History (Admin / Medical Staff)**
-![Admin History](screenshots/riwayat-admin.png)
 
-**Doctor Dashboard**
-![Doctor Dashboard](screenshots/dashboard-admin.png)
+**Doctor Panel — Patient Result Search & Detail)**
+![Doctor Panel](screenshots/riwayat-admin.png)
+An exclusive feature for doctor users. After logging in, doctors can access the Doctor Panel and enter the Examination Code provided directly by the patient. This code is unique for each prediction result and functions as a privacy key — only the patient has the authority to decide who may access their results. Once a valid code is entered, doctors can view the Prediction Result Detail page, which contains the patient’s personal information, Naïve Bayes prediction result, confidence score, examination date, and a complete recap of all signs and symptoms entered by the patient. Doctors can also print the report or save the code for future consultation references.
 
 ---
 
